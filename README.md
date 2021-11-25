@@ -6,7 +6,7 @@
    - Identifier les mentions des mêmes persons -> "Merge selected & Close"
    - Supprimer les nouvelles doublets
 
-2. Enrechir les Persones/lieux avec Geodata
+2. Enrechir les index des persones/lieux avec Geodata
    1. Créer une nouvelle colonne avec les Json/XML des bases de données normatives
       - **Geocodage** : Tutoriel : https://opensas.wordpress.com/2013/06/30/using-openrefine-to-geocode-your-data-using-google-and-openstreetmap-api/
       - Create column :  https://nominatim.openstreetmap.org/search?q="+(cells["Name of Column"].value)+"&format=json
@@ -17,7 +17,9 @@
         - ...
         - ...
  
-3. Preparer les index pour des Graphes - **Edges:** Index_of_persons, of_places, of works
+3. Preparer les index pour des Graphes
+    - **Edges:** Index_of_persons, of_places, of_works
    1. Séparer les ID des lettres écrites dans un champ : Renvoi... - Edit cells - Split multi-valued cells
-   2. Remplir les lignes nouvellement créées avec les noms et les ID des personnes/lieux/œuvres : Nom - Edit cells - Fill down 
+   2. Remplir les lignes nouvellement créées avec les noms et les ID des personnes/lieux/œuvres : Nom - Edit cells - Fill down
+   - **Noeudes:** Index_of_persons, of_places, of_lettres
   
