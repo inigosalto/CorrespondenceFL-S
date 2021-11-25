@@ -7,6 +7,9 @@
 2. Enrechir les Persones/lieux avec Geodata
  2.1
  
- 3. Preparer les index pour des Graphes
+3. Preparer les index pour des Graphes - **Edges:** Index_of_persons, of_places, of works
+ 3.1 Séparer les ID des lettres écrites dans un champ : Renvoi... - Edit cells - Split multi-valued cells
+ 3.2 Remplir les lignes nouvellement créées avec les noms et les ID des personnes/lieux/œuvres : Nom - Edit cells - Fill down
+ 
  
   
